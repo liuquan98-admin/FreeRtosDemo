@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/esp/abc/hello_world/sdkconfig;-DIDF_PATH=/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/root/.espressif/python_env/idf4.4_py3.8_env/bin/python;-DEXTRA_COMPONENT_DIRS=/esp/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/esp/abc/hello_world;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

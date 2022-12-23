@@ -16,8 +16,9 @@
 
 void myTask(void *pvParam){
    printf("hello,world\n");
-   vTaskDelay(1000 / portTICK_PERIOD_MS);
+   vTaskDelay(1000 / portTICK_PERIOD_MS);  //休眠时间/系统统节拍
  }
+
 
 void app_main(void){
    xTaskcreate(myTask,"mytask1",1021,NULL,1,NULL);
